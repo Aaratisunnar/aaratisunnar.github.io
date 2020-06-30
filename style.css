@@ -604,13 +604,13 @@ ul {
 .blog-section .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -30px;
+    margin: 0 -15px;
     margin-bottom: 60px;
 }
 
 .blog-section .row .col {
     width: 33.33%;
-    padding: 0 30px;
+    padding: 0 15px;
     transition: ease 0.3s;
 }
 
@@ -1528,6 +1528,10 @@ input.form-control {
         margin: 0 auto;
     }
 
+    .about-section .holder .text-holder .row .col{
+        width: 50%;
+    }
+
     .about-section .holder .image-holder:after {
         width: 290px;
         height: 100%;
@@ -1565,7 +1569,8 @@ input.form-control {
     }
 
     .work-section #grid .col {
-        width: 50%;
+        width: 100%;
+        box-shadow: 0 0px 96px 0px rgba(0, 0, 0, 0.2);
     }
 
 
